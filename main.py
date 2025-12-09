@@ -143,6 +143,22 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Nizhny Novgorod",
+        query="Nizhny Novgorod,RU",
+        emoji="🏙️",
+        output="sticker_novgorod.png",
+        background="bg_novgorod.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
+        name="Kazan",
+        query="Kazan,RU",
+        emoji="🏙️",
+        output="sticker_kazan.png",
+        background="bg_kazan.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="Ufa",
         query="Ufa,RU",
         emoji="🏙️",
