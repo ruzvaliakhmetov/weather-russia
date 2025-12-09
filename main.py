@@ -38,54 +38,54 @@ class DetailsLayout:
 
 # Город
 CITY_LAYOUT = BlockLayout(
-    x=None,   # None = центр по горизонтали
-    y=None,   # None = автоматически чуть выше низа
-    font_size=80,
+    x=50,   # None = центр по горизонтали
+    y=400,   # None = автоматически чуть выше низа
+    font_size=58,
 )
 
 # Температура (цифры) — ПРАВАЯ ВЫКЛЮЧКА
 # x = отступ от ПРАВОГО края стикера
 TEMP_LAYOUT = BlockLayout(
     x=80,          # правый край цифр будет в 80 px от правого края картинки
-    y=70,
+    y=30,
     font_size=140,
     right_align=True,
 )
 
 # Блок "°C" — отдельный независимый блок
 DEGREE_LAYOUT = BlockLayout(
-    x=40,          # обычный x от левого края
-    y=70,          # можешь поставить None и задать default_y при вызове
-    font_size=70,
+    x=430,          # обычный x от левого края
+    y=56,          # можешь поставить None и задать default_y при вызове
+    font_size=42,
     right_align=False,
 )
 
 # День (например "07")
 DAY_LAYOUT = BlockLayout(
-    x=40,
-    y=40,
-    font_size=40,
+    x=394,
+    y=310,
+    font_size=48,
 )
 
 # Месяц (например "Dec")
 MONTH_LAYOUT = BlockLayout(
-    x=40,
-    y=DAY_LAYOUT.y + 50,
-    font_size=40,
+    x=394,
+    y=280,
+    font_size=32,
 )
 
 # Время (например "20:55")
 TIME_LAYOUT = BlockLayout(
-    x=40,
-    y=MONTH_LAYOUT.y + 50,
-    font_size=40,
+    x=400,
+    y=366,
+    font_size=20,
 )
 
 # Блок деталей (humidity, wind, conditions) — три строки
 DETAILS_LAYOUT = DetailsLayout(
-    x=40,
-    y=350,       # стартовая Y для первой строки
-    font_size=28,
+    x=50,
+    y=290,       # стартовая Y для первой строки
+    font_size=30,
     line_spacing=6,
 )
 
@@ -119,6 +119,22 @@ CITIES = [
         tz_offset_hours=3,   # UTC+3
     ),
     CityConfig(
+        name="Malmö",
+        query="Malmo,SE",  # в API без умлаута
+        emoji="🏙️",
+        output="sticker_malmo.png",
+        background="bg_malmo.png",
+        tz_offset_hours=1,  # Europe/Stockholm зимой ≈ UTC+1
+    ),
+    CityConfig(
+        name="Belgrade",
+        query="Belgrade,RS",
+        emoji="🏙️",
+        output="sticker_belgrade.png",
+        background="bg_belgrade.png",
+        tz_offset_hours=1,  # Europe/Belgrade ≈ UTC+1
+    ),
+    CityConfig(
         name="Moscow",
         query="Moscow,RU",
         emoji="🏙️",
@@ -127,12 +143,20 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
-        name="Petersburg",
+        name="St. Petersburg",
         query="Saint Petersburg,RU",
         emoji="🏙️",
         output="sticker_saintpetersburg.png",
         background="bg_petersburg.png",
         tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
+        name="Haifa",
+        query="Haifa,IL",
+        emoji="🏙️",
+        output="sticker_haifa.png",
+        background="bg_haifa.png",
+        tz_offset_hours=2,  # примерно UTC+2
     ),
     CityConfig(
         name="Ufa",
@@ -141,6 +165,14 @@ CITIES = [
         output="sticker_ufa.png",
         background="bg_ufa.png",
         tz_offset_hours=5,  # примерно UTC+5
+    ),
+    CityConfig(
+        name="Hamburg",
+        query="Hamburg,DE",
+        emoji="🏙️",
+        output="sticker_hamburg.png",
+        background="bg_hamburg.png",
+        tz_offset_hours=1,  # Europe/Berlin зимой ≈ UTC+1
     ),
 ]
 
