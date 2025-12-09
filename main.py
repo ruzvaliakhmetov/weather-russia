@@ -71,7 +71,7 @@ DAY_LAYOUT = BlockLayout(
 MONTH_LAYOUT = BlockLayout(
     x=396,
     y=280,
-    font_size=32,
+    font_size=30,
 )
 
 # Время (например "20:55")
