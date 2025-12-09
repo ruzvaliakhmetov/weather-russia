@@ -127,6 +127,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Odintsovo",
+        query="Odintsovo,RU",
+        emoji="🏙️",
+        output="sticker_odintsovo.png",
+        background="bg_odintsovo.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="Ramenskoe",
         query="Ramenskoye,RU",
         emoji="🏙️",
@@ -188,6 +196,14 @@ CITIES = [
         emoji="🏙️",
         output="sticker_novosibirsk.png",
         background="bg_novosibirsk.png",
+        tz_offset_hours=7,  # примерно UTC+7
+    ),
+    CityConfig(
+        name="Barnaul",
+        query="Barnaul,RU",
+        emoji="🏙️",
+        output="sticker_barnaul.png",
+        background="bg_barnaul.png",
         tz_offset_hours=7,  # примерно UTC+7
     ),
     CityConfig(
