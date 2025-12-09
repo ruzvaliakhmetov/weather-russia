@@ -143,7 +143,7 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
-        name="Nizhny Novgorod",
+        name="N. Novgorod",
         query="Nizhny Novgorod,RU",
         emoji="🏙️",
         output="sticker_novgorod.png",
