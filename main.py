@@ -151,6 +151,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Rostov-on-Don",
+        query="Rostov-na-Donu,RU",
+        emoji="🏙️",
+        output="sticker_rostovondon.png",
+        background="bg_rostovondon.png",
+        tz_offset_hours=3,   # UTC+3
+    ),
+    CityConfig(
         name="N. Novgorod",
         query="Nizhny Novgorod,RU",
         emoji="🏙️",
