@@ -127,6 +127,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Ramenskoe",
+        query="Ramenskoye,RU",
+        emoji="🏙️",
+        output="sticker_ramenskoe.png",
+        background="bg_ramenskoe.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="St. Petersburg",
         query="Saint Petersburg,RU",
         emoji="🏙️",
