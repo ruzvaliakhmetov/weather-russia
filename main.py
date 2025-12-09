@@ -152,7 +152,7 @@ CITIES = [
     ),
     CityConfig(
         name="Neftekamsk",
-        query="Neftakamsk,RU",
+        query="Neftekamsk,RU",
         emoji="🏙️",
         output="sticker_neftekamsk.png",
         background="bg_neftekamsk.png",
