@@ -223,6 +223,14 @@ CITIES = [
         tz_offset_hours=5,  # примерно UTC+5
     ),
     CityConfig(
+        name="Omsk",
+        query="Omsk,RU",
+        emoji="🏙️",
+        output="sticker_omsk.png",
+        background="bg_fallback.png",
+        tz_offset_hours=6,  # примерно UTC+6
+    ),
+    CityConfig(
         name="Novosibirsk",
         query="Novosibirsk,RU",
         emoji="🏙️",
