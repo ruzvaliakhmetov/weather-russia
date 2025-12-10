@@ -159,6 +159,14 @@ CITIES = [
         tz_offset_hours=3,   # UTC+3
     ),
     CityConfig(
+        name="Voronezh",
+        query="Voronezh,RU",
+        emoji="🏙️",
+        output="sticker_voronezh.png",
+        background="bg_fallback.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="N. Novgorod",
         query="Nizhny Novgorod,RU",
         emoji="🏙️",
