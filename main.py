@@ -199,6 +199,14 @@ CITIES = [
         tz_offset_hours=5,  # примерно UTC+5
     ),
     CityConfig(
+        name="Perm",
+        query="Perm,RU",
+        emoji="🏙️",
+        output="sticker_perm.png",
+        background="bg_fallback.png",
+        tz_offset_hours=5,  # примерно UTC+5
+    ),
+    CityConfig(
         name="Ekaterinburg",
         query="Yekaterinburg,RU",
         emoji="🏙️",
