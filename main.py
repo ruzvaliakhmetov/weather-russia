@@ -262,14 +262,14 @@ CITIES = [
         background="bg_barnaul.png",
         tz_offset_hours=7,  # UTC+7
     ),
-    CityConfig(
-        name="海兰泡",
-        query="Blagoveshchensk,RU",
-        emoji="🏙️",
-        output="sticker_blagoveshchensk.png",
-        background="bg_fallback.png",
-        tz_offset_hours=9,  # UTC+9
-    ),
+    #CityConfig(
+    #    name="海兰泡",
+    #    query="Blagoveshchensk,RU",
+    #    emoji="🏙️",
+    #    output="sticker_blagoveshchensk.png",
+    #    background="bg_fallback.png",
+    #    tz_offset_hours=9,  # UTC+9
+    #),
     CityConfig(
         name="Vladivostok",
         query="Vladivostok,RU",
