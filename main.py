@@ -239,12 +239,20 @@ CITIES = [
         tz_offset_hours=7,  # примерно UTC+7
     ),
     CityConfig(
+        name="Blagoveshchensk",
+        query="Blagoveshchensk,RU",
+        emoji="🏙️",
+        output="sticker_blagoveshchensk.png",
+        background="bg_fallback.png",
+        tz_offset_hours=9,  # примерно UTC+9
+    ),
+    CityConfig(
         name="Vladivostok",
         query="Vladivostok,RU",
         emoji="🏙️",
         output="sticker_vladivostok.png",
         background="bg_vladivostok.png",
-        tz_offset_hours=10,  # примерно UTC+7
+        tz_offset_hours=10,  # примерно UTC+10
     ),
 ]
 
