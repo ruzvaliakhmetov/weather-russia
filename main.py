@@ -175,6 +175,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Samara",
+        query="Samara,RU",
+        emoji="🏙️",
+        output="sticker_samara.png",
+        background="bg_fallback.png",
+        tz_offset_hours=4,  # примерно UTC+4
+    ),
+    CityConfig(
         name="Neftekamsk",
         query="Neftekamsk,RU",
         emoji="🏙️",
@@ -191,6 +199,14 @@ CITIES = [
         tz_offset_hours=5,  # примерно UTC+5
     ),
     CityConfig(
+        name="Ekaterinburg",
+        query="Yekaterinburg,RU",
+        emoji="🏙️",
+        output="sticker_ekaterinburg.png",
+        background="bg_fallback.png",
+        tz_offset_hours=5,  # примерно UTC+5
+    ),
+    CityConfig(
         name="Chelyabinsk",
         query="Chelyabinsk,RU",
         emoji="🏙️",
@@ -204,6 +220,14 @@ CITIES = [
         emoji="🏙️",
         output="sticker_novosibirsk.png",
         background="bg_novosibirsk.png",
+        tz_offset_hours=7,  # примерно UTC+7
+    ),
+    CityConfig(
+        name="Tomsk",
+        query="Tomsk,RU",
+        emoji="🏙️",
+        output="sticker_tomsk.png",
+        background="bg_fallback.png",
         tz_offset_hours=7,  # примерно UTC+7
     ),
     CityConfig(
