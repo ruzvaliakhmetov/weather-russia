@@ -212,7 +212,7 @@ CITIES = [
         emoji="🏙️",
         output="sticker_perm.png",
         background="bg_fallback.png",
-        tz_offset_hours=5,  # примерно UTC+5
+        tz_offset_hours=5,  # UTC+5
     ),
     CityConfig(
         name="Ekaterinburg",
@@ -220,7 +220,7 @@ CITIES = [
         emoji="🏙️",
         output="sticker_ekaterinburg.png",
         background="bg_fallback.png",
-        tz_offset_hours=5,  # примерно UTC+5
+        tz_offset_hours=5,  # UTC+5
     ),
     CityConfig(
         name="Chelyabinsk",
@@ -228,7 +228,7 @@ CITIES = [
         emoji="🏙️",
         output="sticker_chelyabinsk.png",
         background="bg_chelyabinsk.png",
-        tz_offset_hours=5,  # примерно UTC+5
+        tz_offset_hours=5,  # UTC+5
     ),
     CityConfig(
         name="Omsk",
@@ -236,7 +236,7 @@ CITIES = [
         emoji="🏙️",
         output="sticker_omsk.png",
         background="bg_fallback.png",
-        tz_offset_hours=6,  # примерно UTC+6
+        tz_offset_hours=6,  # UTC+6
     ),
     CityConfig(
         name="Novosibirsk",
@@ -244,7 +244,7 @@ CITIES = [
         emoji="🏙️",
         output="sticker_novosibirsk.png",
         background="bg_novosibirsk.png",
-        tz_offset_hours=7,  # примерно UTC+7
+        tz_offset_hours=7,  # UTC+7
     ),
     CityConfig(
         name="Tomsk",
@@ -252,7 +252,7 @@ CITIES = [
         emoji="🏙️",
         output="sticker_tomsk.png",
         background="bg_fallback.png",
-        tz_offset_hours=7,  # примерно UTC+7
+        tz_offset_hours=7,  # UTC+7
     ),
     CityConfig(
         name="Barnaul",
@@ -260,7 +260,7 @@ CITIES = [
         emoji="🏙️",
         output="sticker_barnaul.png",
         background="bg_barnaul.png",
-        tz_offset_hours=7,  # примерно UTC+7
+        tz_offset_hours=7,  # UTC+7
     ),
     CityConfig(
         name="海兰泡",
@@ -268,7 +268,7 @@ CITIES = [
         emoji="🏙️",
         output="sticker_blagoveshchensk.png",
         background="bg_fallback.png",
-        tz_offset_hours=9,  # примерно UTC+9
+        tz_offset_hours=9,  # UTC+9
     ),
     CityConfig(
         name="Vladivostok",
@@ -276,7 +276,7 @@ CITIES = [
         emoji="🏙️",
         output="sticker_vladivostok.png",
         background="bg_vladivostok.png",
-        tz_offset_hours=10,  # примерно UTC+10
+        tz_offset_hours=10,  # UTC+10
     ),
 ]
 
