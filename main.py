@@ -239,7 +239,7 @@ CITIES = [
         tz_offset_hours=7,  # примерно UTC+7
     ),
     CityConfig(
-        name="Blagoveshchensk",
+        name="海兰泡",
         query="Blagoveshchensk,RU",
         emoji="🏙️",
         output="sticker_blagoveshchensk.png",
