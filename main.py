@@ -163,7 +163,7 @@ CITIES = [
         query="Voronezh,RU",
         emoji="🏙️",
         output="sticker_voronezh.png",
-        background="bg_fallback.png",
+        background="bg_voronezh.png",
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
@@ -187,7 +187,7 @@ CITIES = [
         query="Samara,RU",
         emoji="🏙️",
         output="sticker_samara.png",
-        background="bg_fallback.png",
+        background="bg_samara.png",
         tz_offset_hours=4,  # примерно UTC+4
     ),
     CityConfig(
@@ -211,7 +211,7 @@ CITIES = [
         query="Perm,RU",
         emoji="🏙️",
         output="sticker_perm.png",
-        background="bg_fallback.png",
+        background="bg_perm.png",
         tz_offset_hours=5,  # UTC+5
     ),
     CityConfig(
@@ -251,7 +251,7 @@ CITIES = [
         query="Tomsk,RU",
         emoji="🏙️",
         output="sticker_tomsk.png",
-        background="bg_fallback.png",
+        background="bg_tomsk.png",
         tz_offset_hours=7,  # UTC+7
     ),
     CityConfig(
