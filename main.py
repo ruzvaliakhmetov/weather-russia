@@ -219,7 +219,7 @@ CITIES = [
         query="Yekaterinburg,RU",
         emoji="🏙️",
         output="sticker_ekaterinburg.png",
-        background="bg_fallback.png",
+        background="bg_ekaterinburg.png",
         tz_offset_hours=5,  # UTC+5
     ),
     CityConfig(
@@ -235,7 +235,7 @@ CITIES = [
         query="Omsk,RU",
         emoji="🏙️",
         output="sticker_omsk.png",
-        background="bg_fallback.png",
+        background="bg_omsk.png",
         tz_offset_hours=6,  # UTC+6
     ),
     CityConfig(
