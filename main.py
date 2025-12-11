@@ -179,7 +179,7 @@ CITIES = [
         query="Yoshkar-Ola,RU",
         emoji="🏙️",
         output="sticker_yoshkarola.png",
-        background="bg_fallback.png",
+        background="bg_yoshkarola.png",
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
