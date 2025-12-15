@@ -239,6 +239,14 @@ CITIES = [
         tz_offset_hours=5,  # UTC+5
     ),
     CityConfig(
+        name="Tyumen",
+        query="Tyumen,RU",
+        emoji="🏙️",
+        output="sticker_tyumen.png",
+        background="bg_fallback.png",
+        tz_offset_hours=5,  # UTC+5
+    ),
+    CityConfig(
         name="Omsk",
         query="Omsk,RU",
         emoji="🏙️",
