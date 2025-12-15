@@ -243,7 +243,7 @@ CITIES = [
         query="Tyumen,RU",
         emoji="🏙️",
         output="sticker_tyumen.png",
-        background="bg_fallback.png",
+        background="bg_tyumen.png",
         tz_offset_hours=5,  # UTC+5
     ),
     CityConfig(
