@@ -175,6 +175,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Penza",
+        query="Penza,RU",
+        emoji="🏙️",
+        output="sticker_penza.png",
+        background="bg_fallback.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="Yoshkar-Ola",
         query="Yoshkar-Ola,RU",
         emoji="🏙️",
