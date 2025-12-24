@@ -179,7 +179,7 @@ CITIES = [
         query="Penza,RU",
         emoji="🏙️",
         output="sticker_penza.png",
-        background="bg_fallback.png",
+        background="bg_penza.png",
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
