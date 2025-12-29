@@ -151,6 +151,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Petrozavodsk",
+        query="Petrozavodsk,RU",
+        emoji="🏙️",
+        output="sticker_petrozavosk.png",
+        background="bg_petrozavosk.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="Rostov-on-Don",
         query="Rostov-na-Donu,RU",
         emoji="🏙️",
