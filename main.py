@@ -154,8 +154,8 @@ CITIES = [
         name="Petrozavodsk",
         query="Petrozavodsk,RU",
         emoji="🏙️",
-        output="sticker_petrozavosk.png",
-        background="bg_petrozavosk.png",
+        output="sticker_petrozavodsk.png",
+        background="bg_petrozavodsk.png",
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
