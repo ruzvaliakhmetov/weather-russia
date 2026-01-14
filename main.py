@@ -171,7 +171,7 @@ CITIES = [
         query="Krasnodar,RU",
         emoji="🏙️",
         output="sticker_krasnodar.png",
-        background="bg_fallback.png",
+        background="bg_krasnodar.png",
         tz_offset_hours=3,   # UTC+3
     ),
     CityConfig(
