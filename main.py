@@ -167,6 +167,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Krasnodar",
+        query="Krasnodar,RU",
+        emoji="🏙️",
+        output="sticker_krasnodar.png",
+        background="bg_fallback.png",
+        tz_offset_hours=3,   # UTC+3
+    ),
+    CityConfig(
         name="Rostov-on-Don",
         query="Rostov-na-Donu,RU",
         emoji="🏙️",
