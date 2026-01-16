@@ -335,6 +335,14 @@ CITIES = [
         tz_offset_hours=9,  # UTC+9
     ),
     CityConfig(
+        name="Oymyakon",
+        query="Oymyakon,RU",
+        emoji="🏙️",
+        output="sticker_oymyakon.png",
+        background="bg_oymyakon.png",
+        tz_offset_hours=10,  # UTC+10
+    ),
+    CityConfig(
         name="Vladivostok",
         query="Vladivostok,RU",
         emoji="🏙️",
