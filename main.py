@@ -127,6 +127,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Korolev",
+        query="Korolev,RU",
+        emoji="🏙️",
+        output="sticker_korolev.png",
+        background="bg_korolev.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="Odintsovo",
         query="Odintsovo,RU",
         emoji="🏙️",
