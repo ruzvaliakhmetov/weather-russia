@@ -239,6 +239,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Naryan-Mar",
+        query="Nar'yan-Mar,RU",
+        emoji="🏙️",
+        output="sticker_naryanmar.png",
+        background="bg_naryanmar.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="Samara",
         query="Samara,RU",
         emoji="🏙️",
