@@ -159,6 +159,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Murmansk",
+        query="Murmansk,RU",
+        emoji="🏙️",
+        output="sticker_murmansk.png",
+        background="bg_murmansk.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="Kondopoga",
         query="Kondopoga,RU",
         emoji="🏙️",
