@@ -191,6 +191,14 @@ CITIES = [
         tz_offset_hours=3,   # UTC+3
     ),
     CityConfig(
+        name="Vladikavkaz",
+        query="Vladikavkaz,RU",
+        emoji="🏙️",
+        output="sticker_vladikavkaz.png",
+        background="bg_vladikavkaz.png",
+        tz_offset_hours=3,   # UTC+3
+    ),
+    CityConfig(
         name="Rostov-on-Don",
         query="Rostov-na-Donu,RU",
         emoji="🏙️",
