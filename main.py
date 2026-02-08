@@ -231,6 +231,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Volgograd",
+        query="Volgograd,RU",
+        emoji="🏙️",
+        output="sticker_volgograd.png",
+        background="bg_volgograd.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="Penza",
         query="Penza,RU",
         emoji="🏙️",
