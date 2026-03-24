@@ -271,19 +271,19 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
-        name="Samara",
-        query="Samara,RU",
-        emoji="🏙️",
-        output="sticker_samara.png",
-        background="bg_samara.png",
-        tz_offset_hours=4,  # примерно UTC+4
-    ),
-    CityConfig(
         name="Ukhta",
         query="Ukhta,RU",
         emoji="🏙️",
         output="sticker_ukhta.png",
         background="bg_ukhta.png",
+        tz_offset_hours=3,  # примерно UTC+3
+    ),
+    CityConfig(
+        name="Samara",
+        query="Samara,RU",
+        emoji="🏙️",
+        output="sticker_samara.png",
+        background="bg_samara.png",
         tz_offset_hours=4,  # примерно UTC+4
     ),
     CityConfig(
