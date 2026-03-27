@@ -239,6 +239,14 @@ CITIES = [
         tz_offset_hours=3,  # UTC+3
     ),
     CityConfig(
+        name="Saransk",
+        query="Saransk,RU",
+        emoji="🏙️",
+        output="sticker_saransk.png",
+        background="bg_saransk.png",
+        tz_offset_hours=3,  # UTC+3
+    ),
+    CityConfig(
         name="Penza",
         query="Penza,RU",
         emoji="🏙️",
